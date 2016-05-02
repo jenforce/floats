@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Fill in your CSS Below */
+
+
+body {
+
+}
+
+header {
+
+	background: #ccc;
+	/*padding: 20px;*/
+	margin-bottom: 20px;
+	width: 100%;
+	height: 70px;
+	color: #333;
+}
+
+section {
+	
+	/*padding: 20px;*/
+	/*margin-bottom: 20px;*/
+}
+	
+
+#left {
+	float:left;
+	background: #666;
+	padding:25px 75px;
+	margin-bottom: 20px;
+	width:33%;
+	height: 70px;
+	color:#FDFEFE;
+
+}
+
+#middle {
+	display: inline-block;
+	background: #888;
+	width: 33%;
+	padding:25px 75px;
+	margin-bottom: 20px;
+	color:#FDFEFE;
+	height: 70px;
+
+
+}
+
+#right {
+	float:right;
+	background: #666;
+	padding:25px 75px;
+	margin-bottom: 20px;
+	width: 33%;
+	color:#FDFEFE;
+	height: 70px;
+}
+
+#full {
+	background-color: #eee;
+	height: 240px;
+	width: 100%;
+	float:left;
+	padding-top: 15px;
+	margin-bottom: 20px;
+}
+
+
+#division {
+	background-color: #6ea3da;
+	width: 97%;
+	padding: 20px;
+	margin: 20px;
+
+}
+
+aside {
+	height: 140px;
+	width: 300px;
+	float:left;
+	background-color: #fff;
+	margin: 10px 30px 30px 30px;
+	text-align: center;
+	padding: 50px 40px 20px 40px;
+}
+
+footer {
+	clear: both;
+	background: #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #333;
+	height: 70px;
+
+}
